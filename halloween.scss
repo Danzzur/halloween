@@ -1,0 +1,33 @@
+.container-3w7J-x[aria-label*="🔥 Comfy camp"] .header-2V-4Sw {
+    height: 150px;
+    align-items: flex-end;
+
+    & > * { margin-bottom: 15px;}
+
+    &::before {
+        content: ''; position: absolute;
+        top: 0; left: 0;
+        width: 100%; height: 100%;
+        background: url('https://i.imgur.com/5PUPyAe.png') center/cover no-repeat;
+        -webkit-mask: linear-gradient(#000000, transparent);
+    }
+}
+
+.headerButton-3in1-b[aria-label="🔥 Comfy camp, server actions"] {
+    &::before {
+        content: ''; position: fixed;
+        left: -20px; bottom: 0;
+        width: 130px; height: 150px;
+        background: url('https://i.imgur.com/Onsi6Ft.png') center/100% no-repeat; 
+        pointer-events: none; opacity: 0.8;
+        transform: scaleX(-1) scaleY(-1);
+    }
+
+    &::after {
+        content: ''; position: fixed;
+        right: 10px; bottom: 0;
+        width: 50px; height: 50px;
+        background: url('https://i.imgur.com/eNgL05o.png') center/100% no-repeat; 
+        pointer-events: none
+    }
+}
