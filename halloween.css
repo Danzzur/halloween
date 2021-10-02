@@ -1,10 +1,10 @@
 @charset "UTF-8";
 .container-3w7J-x[aria-label*="🔥 Comfy camp"] .header-2V-4Sw {
   height: 150px;
-  align-items: flex-end;
+  align-items: flex-start;
 }
 .container-3w7J-x[aria-label*="🔥 Comfy camp"] .header-2V-4Sw > * {
-  margin-bottom: 15px;
+  margin-top: 15px;
 }
 .container-3w7J-x[aria-label*="🔥 Comfy camp"] .header-2V-4Sw::before {
   content: "";

@@ -1,8 +1,8 @@
 .container-3w7J-x[aria-label*="🔥 Comfy camp"] .header-2V-4Sw {
     height: 150px;
-    align-items: flex-end;
+    align-items: flex-start;
 
-    & > * { margin-bottom: 15px;}
+    & > * { margin-top: 15px;}
 
     &::before {
         content: ''; position: absolute;
