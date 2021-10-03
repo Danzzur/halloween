@@ -25,7 +25,7 @@
         }
     }
     
-    & + .panels-j1Uci_ > .container-3baos1 .button-14-BFJ { color: #f7630c;}
+    & + .panels-j1Uci_ > .container-3baos1 .button-14-BFJ { color: #f7630c !important;}
 }
 
 
@@ -46,4 +46,8 @@
         background: url('https://i.imgur.com/eNgL05o.png') center/100% no-repeat; 
         pointer-events: none
     }
+}
+
+.blobContainer-pmnxKB[data-dnd-name="🎃 Spooky camp"]:hover .icon-27yU2q[src="https://cdn.discordapp.com/icons/811203761619337259/cbbe557dad5f5f43e5dea3f9e7a75e14.webp?size=96"] { 
+    content: url('https://i.imgur.com/HKhLifk.gif');
 }
