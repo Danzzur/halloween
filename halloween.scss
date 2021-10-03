@@ -1,19 +1,35 @@
-.container-3w7J-x[aria-label*="🔥 Comfy camp"] .header-2V-4Sw {
-    height: 150px;
-    align-items: flex-start;
+@use "sass:math";
 
-    & > * { margin-top: 15px;}
+.container-3w7J-x[aria-label*="🎃 Spooky camp"] {
+    
+    .header-2V-4Sw {
+        height: 150px; padding: 16px;
+        align-items: flex-start;
 
-    &::before {
-        content: ''; position: absolute;
-        top: 0; left: 0;
-        width: 100%; height: 100%;
-        background: url('https://i.imgur.com/5PUPyAe.png') center/cover no-repeat;
-        -webkit-mask: linear-gradient(#000000, transparent);
+        &::before {
+            content: ''; position: absolute;
+            top: 0; left: 0; z-index: -1;
+            width: 100%; height: 100%;
+            background: url('https://i.imgur.com/5PUPyAe.png') center/cover no-repeat;
+            -webkit-mask: linear-gradient(#000000, transparent);
+        }
     }
+
+    @for $i from 3 through 17 {
+        .content-3YMskv > :nth-child(#{$i}) {
+            $random: percentage(round(random($limit: null) * $i) / $i);
+            $random2: percentage(round(random($limit: null) * $i) / $i);
+            $color: hsl(25, $random, $random2);
+
+            .icon-1DeIlz, .container-2ax-kl { color: $color;}
+        }
+    }
+    
+    & + .panels-j1Uci_ > .container-3baos1 .button-14-BFJ { color: #f7630c;}
 }
 
-.headerButton-3in1-b[aria-label="🔥 Comfy camp, server actions"] {
+
+.headerButton-3in1-b[aria-label="🎃 Spooky camp, server actions"] {
     &::before {
         content: ''; position: fixed;
         left: -20px; bottom: 0;

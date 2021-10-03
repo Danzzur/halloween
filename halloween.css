@@ -1,23 +1,70 @@
 @charset "UTF-8";
-.container-3w7J-x[aria-label*="🔥 Comfy camp"] .header-2V-4Sw {
+.container-3w7J-x[aria-label*="🎃 Spooky camp"] .header-2V-4Sw {
   height: 150px;
+  padding: 16px;
   align-items: flex-start;
 }
-.container-3w7J-x[aria-label*="🔥 Comfy camp"] .header-2V-4Sw > * {
-  margin-top: 15px;
-}
-.container-3w7J-x[aria-label*="🔥 Comfy camp"] .header-2V-4Sw::before {
+.container-3w7J-x[aria-label*="🎃 Spooky camp"] .header-2V-4Sw::before {
   content: "";
   position: absolute;
   top: 0;
   left: 0;
+  z-index: -1;
   width: 100%;
   height: 100%;
   background: url("https://i.imgur.com/5PUPyAe.png") center/cover no-repeat;
   -webkit-mask: linear-gradient(#000000, transparent);
 }
+.container-3w7J-x[aria-label*="🎃 Spooky camp"] .content-3YMskv > :nth-child(3) .icon-1DeIlz, .container-3w7J-x[aria-label*="🎃 Spooky camp"] .content-3YMskv > :nth-child(3) .container-2ax-kl {
+  color: #e3a171;
+}
+.container-3w7J-x[aria-label*="🎃 Spooky camp"] .content-3YMskv > :nth-child(4) .icon-1DeIlz, .container-3w7J-x[aria-label*="🎃 Spooky camp"] .content-3YMskv > :nth-child(4) .container-2ax-kl {
+  color: #503d30;
+}
+.container-3w7J-x[aria-label*="🎃 Spooky camp"] .content-3YMskv > :nth-child(5) .icon-1DeIlz, .container-3w7J-x[aria-label*="🎃 Spooky camp"] .content-3YMskv > :nth-child(5) .container-2ax-kl {
+  color: #cccccc;
+}
+.container-3w7J-x[aria-label*="🎃 Spooky camp"] .content-3YMskv > :nth-child(6) .icon-1DeIlz, .container-3w7J-x[aria-label*="🎃 Spooky camp"] .content-3YMskv > :nth-child(6) .container-2ax-kl {
+  color: gray;
+}
+.container-3w7J-x[aria-label*="🎃 Spooky camp"] .content-3YMskv > :nth-child(7) .icon-1DeIlz, .container-3w7J-x[aria-label*="🎃 Spooky camp"] .content-3YMskv > :nth-child(7) .container-2ax-kl {
+  color: #68442a;
+}
+.container-3w7J-x[aria-label*="🎃 Spooky camp"] .content-3YMskv > :nth-child(8) .icon-1DeIlz, .container-3w7J-x[aria-label*="🎃 Spooky camp"] .content-3YMskv > :nth-child(8) .container-2ax-kl {
+  color: #404040;
+}
+.container-3w7J-x[aria-label*="🎃 Spooky camp"] .content-3YMskv > :nth-child(9) .icon-1DeIlz, .container-3w7J-x[aria-label*="🎃 Spooky camp"] .content-3YMskv > :nth-child(9) .container-2ax-kl {
+  color: #e6c1a7;
+}
+.container-3w7J-x[aria-label*="🎃 Spooky camp"] .content-3YMskv > :nth-child(10) .icon-1DeIlz, .container-3w7J-x[aria-label*="🎃 Spooky camp"] .content-3YMskv > :nth-child(10) .container-2ax-kl {
+  color: #a67959;
+}
+.container-3w7J-x[aria-label*="🎃 Spooky camp"] .content-3YMskv > :nth-child(11) .icon-1DeIlz, .container-3w7J-x[aria-label*="🎃 Spooky camp"] .content-3YMskv > :nth-child(11) .container-2ax-kl {
+  color: #d1d1d1;
+}
+.container-3w7J-x[aria-label*="🎃 Spooky camp"] .content-3YMskv > :nth-child(12) .icon-1DeIlz, .container-3w7J-x[aria-label*="🎃 Spooky camp"] .content-3YMskv > :nth-child(12) .container-2ax-kl {
+  color: #4e2507;
+}
+.container-3w7J-x[aria-label*="🎃 Spooky camp"] .content-3YMskv > :nth-child(13) .icon-1DeIlz, .container-3w7J-x[aria-label*="🎃 Spooky camp"] .content-3YMskv > :nth-child(13) .container-2ax-kl {
+  color: #eda674;
+}
+.container-3w7J-x[aria-label*="🎃 Spooky camp"] .content-3YMskv > :nth-child(14) .icon-1DeIlz, .container-3w7J-x[aria-label*="🎃 Spooky camp"] .content-3YMskv > :nth-child(14) .container-2ax-kl {
+  color: #dbb092;
+}
+.container-3w7J-x[aria-label*="🎃 Spooky camp"] .content-3YMskv > :nth-child(15) .icon-1DeIlz, .container-3w7J-x[aria-label*="🎃 Spooky camp"] .content-3YMskv > :nth-child(15) .container-2ax-kl {
+  color: #faece2;
+}
+.container-3w7J-x[aria-label*="🎃 Spooky camp"] .content-3YMskv > :nth-child(16) .icon-1DeIlz, .container-3w7J-x[aria-label*="🎃 Spooky camp"] .content-3YMskv > :nth-child(16) .container-2ax-kl {
+  color: black;
+}
+.container-3w7J-x[aria-label*="🎃 Spooky camp"] .content-3YMskv > :nth-child(17) .icon-1DeIlz, .container-3w7J-x[aria-label*="🎃 Spooky camp"] .content-3YMskv > :nth-child(17) .container-2ax-kl {
+  color: #5f5955;
+}
+.container-3w7J-x[aria-label*="🎃 Spooky camp"] + .panels-j1Uci_ > .container-3baos1 .button-14-BFJ {
+  color: #f7630c;
+}
 
-.headerButton-3in1-b[aria-label="🔥 Comfy camp, server actions"]::before {
+.headerButton-3in1-b[aria-label="🎃 Spooky camp, server actions"]::before {
   content: "";
   position: fixed;
   left: -20px;
@@ -29,7 +76,7 @@
   opacity: 0.8;
   transform: scaleX(-1) scaleY(-1);
 }
-.headerButton-3in1-b[aria-label="🔥 Comfy camp, server actions"]::after {
+.headerButton-3in1-b[aria-label="🎃 Spooky camp, server actions"]::after {
   content: "";
   position: fixed;
   right: 10px;
